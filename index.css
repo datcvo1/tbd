@@ -6,9 +6,10 @@ body
 #container
 {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 850px;
+    width: 850px;
     flex-direction: column;
+    margin: 1vh auto;
 }
 
 .row
@@ -22,3 +23,12 @@ body
     flex: 1;
 }
 
+button
+{
+    height: 35px;
+    width: 65px;
+    position: fixed;
+    bottom: 94vh;
+    right: 19vw;
+    font-size: large;
+}
